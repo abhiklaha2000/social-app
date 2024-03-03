@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/social-app").then(() => {
+mongoose.connect(`mongodb+srv://abhiklaha2000:dumdum123@cluster0.mae0k64.mongodb.net/social-app`).then(() => {
     console.log('Connected to Mongodb!!!');
 }
 ).catch((err) =>{
